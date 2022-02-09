@@ -23,7 +23,7 @@ function App() {
               </main>
             }
           />
-          <Route path=":invoiceId" element={<Invoice></Invoice>} />
+          <Route path="/invoice/:invoiceId" element={<Invoice></Invoice>} />
           <Route
             path="*"
             element={

@@ -46,7 +46,7 @@ const Invoices = () => {
                 margin: "1rem 0",
                 color: isActive ? "red" : "",
               })}
-              to={`/invoices/${invoice.number}`}
+              to={`/invoice/${invoice.number}`}
               key={invoice.number}
             >
               {invoice.name}
